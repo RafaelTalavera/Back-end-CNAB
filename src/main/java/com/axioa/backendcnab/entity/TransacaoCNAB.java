@@ -1,14 +1,15 @@
-package com.axioa.backendcnab;
+package com.axioa.backendcnab.entity;
 
 import java.math.BigDecimal;
 
-public record TransactionCNAB(
+public record TransacaoCNAB(
         Integer tipo,
         String data,
         BigDecimal valor,
         Long cpf,
         String cartao,
-        String donoDaloja,
-        String nomeDaloja
+        String hora,
+        String donoDaLoja,
+        String nomeDaLoja
 ){
 }
